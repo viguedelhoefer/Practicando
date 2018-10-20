@@ -32,4 +32,4 @@ Es importante destacar que la variable L_padre,hijo se obtiene usando los id de 
 6. ```Sumar a variable de demanda global P_padre```
 7. ```Volver a 1```
 
-Para recorrer el grafo asociado al problema se implementará un algoritmo estilo BFS con algunas modificaciones, ya que con esto puedo obtener las demandas nivel a nivel en base a los datos recolectados. 
+Para recorrer el grafo asociado al problema se implementará un algoritmo estilo BFS con algunas modificaciones, ya que con esto puedo obtener las demandas nivel a nivel en base a los datos recolectados. Esto funciona ya que se recorre el grafo por nivel y se van usando los datos obtenidos desde el nivel anterior para obtener una demanda total.
