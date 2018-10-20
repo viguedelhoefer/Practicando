@@ -20,7 +20,7 @@ Para el caso de las casas colgadas, simplemente se va a sumar su demanda a una v
 **len(lista_padres)** , **demanda_calculada** y **id**. 
 Con estos datos procedemos a calcular la demanda de ese nodo de la forma:
 
-    P_padre = d_propia + Sum{P_hijo / len(lista_padre_hijo) / 1- (p * L_padre,hijo / S) , para cada hijo en lista de hijos} 
+    P_padre = d_propia + Sum{P_hijo / len(lista_padre_hijo) / 1- (p * L_padre,hijo / S) , para cada hijo} 
 
 Es importante destacar que la variable L_padre,hijo se obtiene usando los id de ambos buscando en la base de datos acorde al tipo de cada instalación. Este proceso se puede generalizar para los casos de las entidades de distribución, transmisión y elevadoras. En esos casos no la formulación cambia un poco ya que no necesitamos el largo de la lista de padres que tiene cada hijo (ya que sabemos que para estas entidades solo existe un padre). Por lo tanto, tenemos que el algoritmo generalizado sería: 
 
