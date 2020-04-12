@@ -1,3 +1,3 @@
 # Practicando
 
-![](Or codigo.jpg)
+![](Or codigo.JPG)
