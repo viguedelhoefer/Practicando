@@ -1,3 +1,3 @@
 # Practicando
 
-![](Or codigo.JPG)
+![Hola](Or codigo.JPG)
